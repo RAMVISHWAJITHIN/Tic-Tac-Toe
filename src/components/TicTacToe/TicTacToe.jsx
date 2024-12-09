@@ -29,7 +29,7 @@ const TicTacToe = () => {
   // Handle a player's move
   const handleClick = (index) => {
     if (board[index] || winner) return; // Prevent overwriting or playing after win
-    const newBoard = [...board];
+    const newBoard = [...board];  //copy of the board
     newBoard[index] = isXTurn ? "X" : "O";
     setBoard(newBoard);
     const gameWinner = checkWinner(newBoard);
