@@ -1,8 +1,27 @@
-# React + Vite
+# 🎮 Tic Tac Toe - React Edition
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern and visually appealing Tic Tac Toe game built using **React** and styled with **Tailwind CSS**. This classic 2-player game features a clean neumorphic UI and smooth game state transitions.
 
-Currently, two official plugins are available:
+## 🧠 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- 3x3 interactive game board
+- Alternating turns between X and O
+- Winner detection for rows, columns, and diagonals
+- Draw detection when the board is full
+- Reset button to restart the game
+- Fully responsive design
+- Neumorphic styling for a smooth user experience
+
+## 🛠️ Tech Stack
+
+- **React**: Functional components with hooks (`useState`)
+- **Tailwind CSS**: Utility-first CSS for fast styling
+- **JavaScript**: Game logic and state management
+
+## 📸 Screenshot
+
+*(Include a screenshot of the game UI here)*
+
+## 📁 Project Structure
+
+
